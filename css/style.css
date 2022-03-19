@@ -1,0 +1,111 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Kalam&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Kalam', cursive;
+  color: #333333;
+}
+
+:root {
+    --primary: #eab308;
+    --black: #333333;
+  }
+nav {
+  background-color: var(--primary);
+  text-align: center;
+  --width-break:600px;
+}
+nav p{
+  max-width: var(--width-break);
+  margin: auto;
+}
+main {
+  margin: auto;
+  padding: 1rem;
+  max-width: var(--width-break);
+}
+:root {
+    /* violet */
+    --primary-color: 111, 76, 255;
+    
+    /* white */
+    --text-color: 256, 256, 256;
+  }
+  textarea {
+    box-sizing: border-box;
+    display: block;
+    margin-top: 2rem;
+    font-size: large;
+    font-family: inherit;
+    width: 700px;
+    height: 150px;
+}
+
+.lbl-mi{
+  text-align: center;
+}
+
+
+#output{
+    border: 1px solid black;
+    width: 680px;
+    height: 70px;
+    display: block;
+    margin: 1rem;
+    padding: 1rem;
+    margin-left: 9rem;
+}
+#lbl-out{
+font-style: bold;
+font-size:larger;
+}
+.nav-lbl{
+  font-size:2rem;
+  padding:1rem;
+
+}
+.btn:hover {
+    transition: all 0.3s ease;
+  }
+.btn {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 18px;
+    padding: 12px 32px;
+    margin: 1rem;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+    border-radius: 50px;
+  }
+  .btn-semi-transparent {
+    background-color: rgba(var(--primary-color), 1);
+    border: 1px solid rgba(var(--primary-color), 1);
+    color: rgba(var(--text-color), 0.8);
+  }
+  
+  .btn-semi-transparent:hover {
+    background-color: rgba(var(--primary-color), 0.5);
+    border: 1px solid rgba(var(--primary-color), 0.5);
+    color: rgba(var(--text-color), 0.9);
+  }
+
+  .btn-glow:hover {
+    box-shadow: rgba(var(--primary-color), 0.5) 0px 0px 20px 0px;
+  }
+  .btn-gradient {
+    background-image: linear-gradient(to right, rgb(1 134 218), rgb(182 49 167));
+    border: 0;
+    color: rgba(var(--text-color));
+  }
+
+  
+img {
+  margin-top: 8rem;
+  float: right;
+  width: 500px;
+  height: 300px;
+  float: right;
+}
+  
